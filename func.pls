@@ -4,6 +4,7 @@ CREATE OR REPLACE FUNCTION get_total_sales(
 RETURN NUMBER
 IS
     l_total_sales NUMBER := 0;
+    
 BEGIN
     -- get total sales
     SELECT SUM(unit_price * quantity)
