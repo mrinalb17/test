@@ -1,2 +1,0 @@
-- name: Scan with Sonar Scanner
-  uses: mathrix-education/sonar-scanner@1.0.0
