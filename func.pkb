@@ -5,7 +5,7 @@ RETURN NUMBER
 IS
     l_total_sales NUMBER := 0;
     
-BEGIN
+BEGIN 
     -- get total sales
     SELECT SUM(unit_price * quantity)
     INTO l_total_sales
