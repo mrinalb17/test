@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION get_total_sales(
-    in_year PLS_INTEGER
+    in_year PLS_INTEGER 
 ) 
 RETURN NUMBER
 IS
